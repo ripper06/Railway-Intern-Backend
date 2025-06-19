@@ -62,7 +62,7 @@ backend/
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/ecr-backend.git](https://github.com/ripper06/Railway-Intern-Backend.git)
+git clone https://github.com/your-username/ecr-backend.git](https://github.com/ripper06/Railway-Intern-Backend.git
 cd Railway-Intern-Backend
 ```
 
