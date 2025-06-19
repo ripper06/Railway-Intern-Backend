@@ -62,8 +62,8 @@ backend/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ecr-backend.git
-cd ecr-backend
+git clone [https://github.com/your-username/ecr-backend.git](https://github.com/ripper06/Railway-Intern-Backend.git)
+cd Railway-Intern-Backend
 ```
 
 ### 2. Install Dependencies
@@ -71,7 +71,7 @@ cd ecr-backend
 npm install
 ```
 
-### Configure Environment
+### 3. Configure Environment
 Create a .env file in the root directory:
 
 ```env
@@ -83,7 +83,7 @@ ADMIN_USER=<USER_NAME>
 ADMIN_PASS=<PASSWORD>
 ```
 
-###  Running the Server
+### 4. Running the Server
 
 ```bash
 
@@ -118,16 +118,16 @@ DELETE /api/tours/:id → Admin delete
 
 ### Uthentication Notes
 
-This backend uses a single hardcoded admin (email + password) from the .env file.
+- This backend uses a single hardcoded admin (email + password) from the .env file.
 
-On login, it returns a JWT token.
+- On login, it returns a JWT token.
 
-Pass this token in Authorization header as Bearer {token} to access protected routes.
+- Pass this token in Authorization header as Bearer {token} to access protected routes.
 
 ### 📎 Frontend
-This backend is designed to work with the Parcel-based frontend in the frontend/ directory.
+- This backend is designed to work with the Parcel-based frontend in the frontend/ directory.
 
-Make sure CORS is enabled if frontend is hosted separately.
+- Make sure CORS is enabled if frontend is hosted separately.
 
 ## 🧑‍💻 Author
 Jyoti Ranjan Dash
